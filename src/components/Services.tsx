@@ -1,6 +1,6 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Heart, Briefcase, Globe, Concierge } from "lucide-react";
+import { Heart, Briefcase, Globe, Crown } from "lucide-react";
 
 const services = [
   {
@@ -22,7 +22,7 @@ const services = [
     features: ["Customs handling", "Shipping coordination", "Supply chain", "Global logistics"]
   },
   {
-    icon: Concierge,
+    icon: Crown,
     title: "Concierge Services",
     description: "Premium lifestyle management, event planning, travel coordination, and luxury service arrangements worldwide.",
     features: ["Lifestyle management", "Event planning", "Travel coordination", "Luxury services"]
